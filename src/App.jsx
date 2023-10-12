@@ -11,7 +11,7 @@ function App() {
     <EmailValidationProvider>
       <div className="text-base font-roboto min-h-screen md:flex md:bg-charcoal-grey  md:justify-center
       md:content-center ">
-        <BrowserRouter>
+        <BrowserRouter basename="/newsletter-signup/" >
           <Routes>
               <Route path="/" element={<SignupComponent />} />
               <Route path="/validated" element={<SuccessComponent />} />
