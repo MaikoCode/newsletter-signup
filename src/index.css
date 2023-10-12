@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    .hover-effect{
+        background: linear-gradient(to right, hsl(346, 100%, 66%), hsl(14, 100%, 62%));
+        box-shadow: 0px 5px 10px hsl(4, 100%, 67%);
+    }
+}
